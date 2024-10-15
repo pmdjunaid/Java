@@ -11,6 +11,7 @@ public class BinarySearch {
         else
         System.out.println("The element found at index : "+result);
     }
+    // Main Logic for BinarySearch   Time Complexcity is O(log n)
     public static int BinarySearchFinding(int [] nums, int target) {
         int left = 0;
         int right = nums.length-1;

@@ -11,7 +11,7 @@ public class LinearSearch {
         System.out.println("The element found at index : "+result);
     }
 
-
+//   Main Logic for LinearSearch  Time Complexcity is O(n)
     public static int LinerSearchFinding(int [] nums,int target){
 
         for(int i=0; i<nums.length;i++){

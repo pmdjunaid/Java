@@ -31,11 +31,11 @@ public class BubbleSort {
 }
 
 
-/* Main Logic for BubbleSort
+/* Main Logic for BubbleSort   Time Complexcity is O(n^2)
  
 
     for(int i=0; i<nums.length;i++){
-        for(int j=0;j<nums.length-1;j++){   
+        for(int j=0;j<nums.length -i -1;j++){     //Reduce the time complixcity because we are not checking the swap values again 
             if(nums[i]>nums[j+1]){
                 temp = nums[i];
                 nums[i] = nums[j+1];
