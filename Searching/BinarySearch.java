@@ -1,4 +1,5 @@
-class BinarySearch {
+package Searching;
+public class BinarySearch {
     public static void main(String[] args) {
         int [] nums = {2,3,4,5,6};
         int target = 5;

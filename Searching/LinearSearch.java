@@ -1,4 +1,5 @@
-class LinearSearch {
+package Searching;
+public class LinearSearch {
     public static void main(String[] args) {
         int[] nums = {2,3,5,6,9};
         int target = 6;
