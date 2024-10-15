@@ -40,6 +40,7 @@ public class Armstrong {
         // }else{
         //     System.out.println("Not Armstrong");
         // }
+        sc.close();
     }
     public static boolean armstrong(int num){
         int digits = Integer.toString(num).length();
@@ -51,5 +52,6 @@ public class Armstrong {
             temp=temp/10;
         }
         return sum==num;
+       
     }
 }
